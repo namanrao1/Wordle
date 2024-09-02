@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "app.js"
+      }
+    ],
+    "env": {
+      "CONN_STR": "mongodb+srv://namannitinrao:YLDFJH3kxBYTDu0L@cluster0.ehp8z.mongodb.net/Wordle?retryWrites=true&w=majority&appName=Cluster0",
+      "USER": "namannitinrao",
+      "PASSWORD": "YLDFJH3kxBYTDu0L"
+    }
+  }
+  
