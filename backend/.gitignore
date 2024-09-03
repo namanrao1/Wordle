@@ -1,0 +1,10 @@
+# Node modules
+node_modules/
+
+
+# Environment variable files
+.env
+.env.*
+
+# Package lock files (optional based on project needs)
+package-lock.json
